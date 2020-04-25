@@ -8,16 +8,58 @@
         <link rel="stylesheet" href="styles/style.css" />
     </head>
     <body>
-        <nav id="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="background-name">
-            <div id="name">
-                Hello! I'm Sergio Gimenez
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="background-name">
+                <h1 class="name">
+                    Technology news
+                </h1>
+            </section>
+
+            <section class="container">
+                <article class="new">
+                    <div class="img-new" style="background-image: url('resources/xiaomi.jpg');"></div>
+                    <header><h2>Redmi Note 9S llega a España con Snapdragon 720G, cámara cuádruple y batería de 5.020 mAh desde 229 euros</h2></header>
+                    <div class="content"><p> El Xiaomi Redmi Note 9 Pro cambia de nombre para Europa y se cuelga oficialmente la etiqueta con el precio. 
+                        Tras su debut en Asia, este nuevo teléfono adopta la denominación Redmi Note 9S, manteniendo por lo demás unas características técnicas 
+                        que lo configuran como uno de los teléfonos potencialmente más interesantes de la submarca económica de Xiaomi.</p>
+
+                        <p>El Redmi Note 9S es un teléfono de grandes dimensiones. Posee una pantalla de 6,67 pulgadas protegida por una lámina de vidrio 
+                            reforzado Gorilla Glass 5, bajo la cual se oculta un chipset gaming intermedio Snapdragon 720G. No es tan moderno como el Snapdragon 765G, 
+                            que últimamente se prodiga bastante, pero proporciona un buen rendimiento con juegos 3D.</p>
+                        
+                        <p>Dependiendo de la versión, se podrá acompañar por 4 o 6 GB de RAM.</p></div>
+                    <footer>25/04/2020</footer>
+                </article>
+
+                <article class="new">
+                    <div class="img-new" style="background-image: url('resources/facebook.jpg');"></div>
+                    <header><h2>Facebook presenta Messenger Rooms, un servicio de videollamadas para hasta 50 personas</h2></header>
+                    <div class="content"><p> Las aplicaciones que permiten realizar videollamadas grupales han vivido un crecimiento 
+                        sin precedentes debido al confinamiento, consciente de esta situación y de que semidesconocidos como Zoom o
+                         Houseparty están ganando influencia, Facebook ha presentado Messenger Rooms, una herramienta que permite crear
+                          salas virtuales. Además, la próxima semana la compañía aumentará la capacidad de las videollamadas de WhatsApp, 
+                          que podrán hospedar a ocho usuarios, el doble que hasta ahora.</p>
+
+                        <p>Con Messenger Rooms los usuarios de Facebook pueden crear directamente desde la red social salas de videollamadas 
+                            grupales con capacidad para hasta 50 personas. No hace falta enviar o esperar a una invitación. Una vez creada
+                             la sala se comparte un enlace mediante el feed de noticias, grupos o páginas de eventos para que los interesados
+                              entren. El creador de la sala puede decidir si está abierta a todo el mundo o bloquearla para que solo entren 
+                              los convocados. Para unirse no es necesaria una cuenta de Facebook.</p></div>
+                    <footer>23/04/2020</footer>
+                </article>
+
             </div>
-        </div>
+        </main>
+        <footer class="footer">
+            <p>Reto 1 GeeksHubsacademy</p>
+        </footer>
     </body>
 </html>
