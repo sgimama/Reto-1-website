@@ -57,7 +57,7 @@ body {
 .new {
     display: flex;
     flex-direction: column;
-    width: 40rem;
+    max-width: 40rem;
     background-color: white;
     border-radius: 37px 37px 37px 37px;
     -moz-border-radius: 37px 37px 37px 37px;
@@ -72,7 +72,7 @@ body {
     -webkit-border-radius: 37px 37px 0px 0px;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .new > header {
