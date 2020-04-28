@@ -3,6 +3,9 @@ body {
     padding: 0;
     font-family: "gotham rounded", "open-sans", sans-serif;
     background-color: #e6e6e6;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 /*Menu*/
@@ -103,6 +106,7 @@ body {
     font-weight: bold;
 }
 
+
 .footer > p {
     display: flex;
     justify-content: center;
@@ -139,6 +143,11 @@ body {
     padding: 0.5rem;
 }
 
+.form input:focus{
+    outline: none !important;
+    background-color: #d2e9f7;
+}
+
 .form textarea{
     background-color: #f3f3f3;
     border-radius: 15px 15px 15px 15px;
@@ -148,6 +157,15 @@ body {
     padding: 0.5rem;
 }
 
+.form textarea:focus{
+    outline: none !important;
+    background-color: #d2e9f7;
+}
+
 .form label{
     padding-top: 0.3rem;
+}
+
+main{
+    flex: 1;
 }
